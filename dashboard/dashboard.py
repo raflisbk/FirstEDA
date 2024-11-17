@@ -8,10 +8,13 @@ import streamlit as st
 from streamlit.components.v1 import html
 
 
-def update():
-    st.write("Aplikasi akan rerun otomatis!")
+@st.cache_data
+def load_data():
+    # Proses pengambilan dan pemrosesan data
+    return data
 
-st.slider('Pilih angka', min_value=0, max_value=100, on_change=update)
+data = load_data()
+
 
 
 year_avg=pd.read_csv("dashboard/year_avg_data.csv")
