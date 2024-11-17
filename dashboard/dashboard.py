@@ -7,11 +7,11 @@ from folium.plugins import HeatMap
 import streamlit as st
 from streamlit.components.v1 import html
 
-
+st.slider('Pilih angka', min_value=0, max_value=100, on_change=update)
 def update():
     st.write("Aplikasi akan rerun otomatis!")
 
-st.slider('Pilih angka', min_value=0, max_value=100, on_change=update)
+
 
 
 
