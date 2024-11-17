@@ -8,12 +8,11 @@ import streamlit as st
 from streamlit.components.v1 import html
 
 
-@st.cache_data
-def load_data():
-    # Proses pengambilan dan pemrosesan data
-    return data
+def update():
+    st.write("Aplikasi akan rerun otomatis!")
 
-data = load_data()
+st.slider('Pilih angka', min_value=0, max_value=100, on_change=update)
+
 
 
 
