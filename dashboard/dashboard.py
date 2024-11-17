@@ -21,7 +21,7 @@ with st.sidebar:
     st.subheader("ID Dicoding \t: raflisbk")
     st.subheader("Studi case\t: Air Quality")
 
-st.title("Bagaimana kualitas udara di distrik - distrik Beijing antara 2013-2017 berdasarkan parameter PM2.5, PM10, NO2, SO2, CO, dan O3?")
+st.title("Distrik mana di Beijing yang memiliki tingkat konsentrasi tertinggi untuk setiap parameter kualitas udara (PM2.5, PM10, NO2, SO2, dan CO) pada periode 2013-2017?")
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["PM2.5", "PM10", "NO2","SO2","CO"])
  
 with tab1:
