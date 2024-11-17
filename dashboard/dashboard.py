@@ -7,9 +7,12 @@ from folium.plugins import HeatMap
 import streamlit as st
 from streamlit.components.v1 import html
 
-st.slider('Pilih angka', min_value=0, max_value=100, on_change=update)
-def update():
-    st.write("Aplikasi akan rerun otomatis!")
+def auto_rerun():
+    st.write("Aplikasi sedang melakukan rerun otomatis!")
+    st.experimental_rerun()
+
+# Panggil fungsi auto_rerun() langsung agar aplikasi rerun otomatis saat dibuka
+auto_rerun()
 
 
 
