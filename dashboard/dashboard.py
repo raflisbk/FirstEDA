@@ -7,27 +7,6 @@ from folium.plugins import HeatMap
 import streamlit as st
 from streamlit.components.v1 import html
 
-import streamlit as st
-
-# Fungsi untuk memicu rerun otomatis, namun hanya setelah pemrosesan selesai
-def auto_rerun():
-    # Tambahkan logika untuk memeriksa kondisi sebelum rerun
-    st.write("Aplikasi akan rerun otomatis!")
-    st.experimental_rerun()
-
-# Hanya memanggil auto_rerun di blok kode yang aman, setelah aplikasi dibuka
-if st.session_state.get('rerun', False):
-    auto_rerun()
-
-# Mengatur session_state untuk memastikan rerun hanya terjadi sekali
-st.session_state.rerun = True
-
-
-
-
-
-
-
 year_avg=pd.read_csv("dashboard/year_avg_data.csv")
 station_avg=pd.read_csv("dashboard/station_avg_data.csv")
 
