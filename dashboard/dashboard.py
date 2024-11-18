@@ -308,7 +308,7 @@ with tab5:
 with st.expander("Kesimpulan"):
      st.write(
           """
-             erdasarkan analisis data kualitas udara di Beijing pada periode 2013-2017, ditemukan bahwa:
+             Berdasarkan analisis data kualitas udara di Beijing pada periode 2013-2017, ditemukan bahwa:
 Konsentrasi Tertinggi Berdasarkan Parameter Polutan:
 Distrik Dongsi menunjukkan tingkat konsentrasi tertinggi untuk parameter PM2.5 dan SO2.
 Distrik Gucheng memiliki konsentrasi tertinggi untuk parameter PM10.
@@ -507,7 +507,6 @@ Peningkatan tajam pada tahun 2017 menunjukkan adanya tantangan baru dalam pengen
             )
 with st.expander("Kesimpulan"):
      st.write("""
-              Perbaikan Kualitas Udara:
 Secara keseluruhan, terdapat tren penurunan konsentrasi PM2.5, PM10, NO2, dan CO selama lima tahun tersebut, mengindikasikan upaya perbaikan kualitas udara yang membuahkan hasil.
 Namun, tingkat konsentrasi polutan masih berada di atas ambang batas aman yang direkomendasikan oleh WHO, sehingga potensi risiko kesehatan tetap tinggi."""
               )
