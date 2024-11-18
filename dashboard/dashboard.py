@@ -308,13 +308,13 @@ with tab5:
 with st.expander("Kesimpulan"):
      st.write(
           """
-             PM2.5 dan PM10, yang merupakan indikator utama polusi partikulat, menunjukkan tren penurunan konsentrasi di sebagian besar distrik, mencerminkan upaya pengendalian polusi udara yang semakin intensif oleh pemerintah. Namun, distrik tertentu seperti Dongsi untuk PM2.5 dan Gucheng untuk PM10 tetap menonjol dengan tingkat konsentrasi yang tinggi, menunjukkan adanya tantangan yang lebih besar di wilayah-wilayah tersebut.
-
-Parameter NO2, yang berasal dari emisi kendaraan dan industri, juga menunjukkan perbaikan moderat. Namun, distrik Wanliu masih mencatat tingkat konsentrasi NO2 yang relatif tinggi, menunjukkan aktivitas transportasi yang padat di daerah tersebut. Untuk SO2, yang umumnya berasal dari pembakaran batu bara, konsentrasinya mengalami penurunan signifikan di seluruh distrik, dengan Dongsi tetap mencatat angka tertinggi, mengindikasikan adanya aktivitas pembakaran yang masih signifikan.
-
-Konsentrasi CO, meskipun relatif rendah dibandingkan parameter lain, tetap menjadi perhatian di distrik seperti Wanshouxigong, yang mencatat level tertinggi. Ini mengindikasikan adanya kontribusi dari lalu lintas dan aktivitas domestik yang menggunakan bahan bakar fosil. Parameter O3, yang berhubungan dengan reaksi fotokimia, menunjukkan fluktuasi, dengan beberapa distrik mengalami peningkatan konsentrasi, terutama selama musim panas.
-
-Secara keseluruhan, meskipun terdapat tren penurunan untuk beberapa polutan utama, distribusi kualitas udara di Beijing masih tidak merata. Distrik-distrik yang memiliki aktivitas industri, kepadatan lalu lintas, atau kondisi geografis tertentu cenderung mencatat konsentrasi polutan yang lebih tinggi. Perbaikan kualitas udara memerlukan pendekatan yang lebih terfokus di distrik-distrik yang mengalami tekanan polusi lebih besar, disertai dengan penegakan kebijakan yang berkelanjutan untuk mengurangi emisi dari kendaraan, industri, dan pembakaran bahan bakar.""")
+             erdasarkan analisis data kualitas udara di Beijing pada periode 2013-2017, ditemukan bahwa:
+Konsentrasi Tertinggi Berdasarkan Parameter Polutan:
+Distrik Dongsi menunjukkan tingkat konsentrasi tertinggi untuk parameter PM2.5 dan SO2.
+Distrik Gucheng memiliki konsentrasi tertinggi untuk parameter PM10.
+Distrik Wanliu mencatat konsentrasi tertinggi untuk parameter NO2.
+Distrik Wanshouxigong menunjukkan konsentrasi tertinggi untuk parameter CO.
+Hal ini menunjukkan bahwa kualitas udara bervariasi secara spasial di setiap distrik, dengan beberapa distrik mengalami tekanan polutan tertentu lebih tinggi dibanding lainnya.""")
 
 st.title("Apakah kualitas udara di distrik - distrik beijing membaik atau memburuk selama periode 2013-2017?")
 tab11, tab22, tab33, tab44, tab55 = st.tabs(["PM2.5", "PM10", "NO2","SO2","CO"])
@@ -507,5 +507,7 @@ Peningkatan tajam pada tahun 2017 menunjukkan adanya tantangan baru dalam pengen
             )
 with st.expander("Kesimpulan"):
      st.write("""
-              Secara keseluruhan, kualitas udara di Beijing dalam kurun waktu 2013-2017 mengalami peningkatan dengan tren penurunan pada mayoritas polutan utama. Namun, tantangan masih ada terutama pada pengelolaan emisi SO2 dan CO. Upaya yang berkelanjutan diperlukan untuk mencapai standar kualitas udara WHO dan melindungi kesehatan masyarakat."""
+              Perbaikan Kualitas Udara:
+Secara keseluruhan, terdapat tren penurunan konsentrasi PM2.5, PM10, NO2, dan CO selama lima tahun tersebut, mengindikasikan upaya perbaikan kualitas udara yang membuahkan hasil.
+Namun, tingkat konsentrasi polutan masih berada di atas ambang batas aman yang direkomendasikan oleh WHO, sehingga potensi risiko kesehatan tetap tinggi."""
               )
