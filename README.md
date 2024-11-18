@@ -9,5 +9,11 @@ Proyek ini dapat diatur menggunakan berbagai tools Python lainnya. Namun, dalam 
 
 1. **Aktifkan Environment Conda Anda**  
    Jika Anda menggunakan Conda, ganti `"your environment"` dengan nama environment Conda Anda, kemudian jalankan perintah berikut:  
-   ```bash
+   ```python
    conda activate "your environment"
+2. **Install Library yang dibutuhkan**
+   Instal semua paket Python yang diperlukan menggunakan file requirement.txt:
+   ```bash
+   pip install -r requirement.txt
+3. **Jalankan Aplikasi Streamlit**
+   
