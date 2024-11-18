@@ -1,13 +1,13 @@
-# Project Setup Guide
+# Panduan Pengaturan Proyek
 
-Follow the steps below to set up and run this project.
+Ikuti langkah-langkah berikut untuk mengatur dan menjalankan proyek ini.
 
-## Prerequisites
-Ensure you have [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) installed on your system.
+## Prasyarat
+Proyek ini dapat diatur menggunakan berbagai tools Python lainnya. Namun, dalam proyek ini saya menggunakan **Conda** untuk mengelola lingkungan pengembangan.
 
-## Setup Steps
+## Langkah-langkah :
 
-1. **Activate Your Conda Environment**  
-   Replace `"your environment"` with the name of your Conda environment and run the command below:  
+1. **Aktifkan Environment Conda Anda**  
+   Jika Anda menggunakan Conda, ganti `"your environment"` dengan nama environment Conda Anda, kemudian jalankan perintah berikut:  
    ```bash
    conda activate "your environment"
